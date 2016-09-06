@@ -1,0 +1,18 @@
+CODE 
+1: call main, 0
+2: exit 
+3: PROCBEGIN main
+4: alloc 19
+5: move 4, _11
+6: mul _3, _11, _12
+7: move _12, _2
+8: add _2, _3, _13
+9: move 2, _14
+10: ltof _13, _15
+11: ltof _14, _16
+12: fdiv _15, _16, _17
+13: move _17, _4
+14: sub _2, 0, _18
+15: stor _4, _18, _5
+16: free 19
+17: PROCEND 
